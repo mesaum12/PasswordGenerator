@@ -16,5 +16,5 @@ def passGen():
     s.extend(list(string4))
     random.shuffle(s)
     print(''.join(s[0:passlen]))
-
+    print('This is my code sample for the feature branch');
 passGen()
